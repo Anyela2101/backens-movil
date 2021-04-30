@@ -1,0 +1,222 @@
+<section class="form-registro">
+    <h1 align="center">Registrar Personal</h1>
+    <section class="form-registro1">
+      <form [formGroup]= "formGroup">
+        <div class="">
+          <div class="form-group">
+              <label for="nombre" class="">Identificacion:</label>
+            <div class="">
+              <input type="text"  name="identificacion" formControlName="identificacion" class="form-control"
+              onkeypress='return event.charCode >= 48 && event.charCode <= 57'
+              [ngClass]="{ 'is-invalid':  control.identificacion.touched && control.identificacion.errors}" maxlength="12" />
+
+                  <div *ngIf="control.identificacion.errors" class="invalid-feedback">
+                      <div *ngIf ="control.identificacion.errors.required">Se require la identificacion</div>
+                      </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="">
+          <div class="form-group ">
+              <label for="nombre" class="">Nombres:</label>
+            <div class="">
+             
+          <input type="text" name="nombres" formControlName="nombres" class="form-control"
+            [ngClass]="{'is-invalid':  control.nombres.touched && control.nombres.errors}" maxlength="20"/>
+            <div *ngIf="control.nombres.errors" class="invalid-feedback">
+              <div *ngIf ="control.nombres.errors.required">Se requiere el nombre</div>
+            </div>
+            </div>
+          </div>
+      </div>
+      
+      <div class="">
+          <div class="form-group ">
+              <label for="nombre" class="">Apellidos:</label>
+            <div class="">
+              <input type="text"  name="apellidos" formControlName="apellidos" class="form-control"
+              [ngClass]="{ 'is-invalid':  control.apellidos.touched && control.apellidos.errors}" maxlength="20"/>
+
+                  <div *ngIf="control.apellidos.errors" class="invalid-feedback">
+                      <div *ngIf ="control.apellidos.errors.required">Se require el apellido</div>
+                      </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="">
+          <div class="form-group ">
+              <label for="nombre" class ="">Edad:</label>
+            <div class="">
+              <input type="number"  name="edad" formControlName="edad" class="form-control" 
+              [ngClass]="{ 'is-invalid':  control.edad.touched && control.edad.errors}" min = "18" max="99"/>
+
+              <div *ngIf="control.edad.errors" class="invalid-feedback">
+                  <div *ngIf="control.edad.errors.required">Se require la edad</div>
+                </div>
+            </div>
+          </div>
+      </div>
+      
+      <div class="">
+        <div class="form-group ">
+            <label for="nombre" class="">Sexo:</label>
+          <div class="">
+            <!-- <input type ="text" name ="sexo" formControlName="sexo" class ="form-control"
+            [ngClass] ="{ 'is-invalid':  control.sexo.touched && control.sexo.errors}" /> -->
+            <select name="sexo"  formControlName="sexo" class ="form-control"
+            [ngClass] ="{ 'is-invalid':  control.sexo.touched && control.sexo.errors}">
+              <option value="value1" selected="selected">Seleccione</option>
+              <option value="MASCULINO" >MASCULINO</option>
+              <option value="FEMENINO">FEMENINO</option>
+            </select>
+            <div *ngIf="control.sexo.errors && formGroup.get('sexo')" class="invalid-feedback">
+                <div *ngIf="control.sexo.errors.required">Se require el sexo</div>
+                <div *ngIf="control.sexo.errors.validSexo">{{control.sexo.errors.messageSexo}}</div>
+              </div>
+          </div>
+        </div>
+    </div>
+    <div class="">
+      <div class="form-group ">
+          <label for ="nombre" class="">Telefono:</label>
+        <div class="">
+          <input type="text"  name="telefono" formControlName="telefono"  class="form-control"
+          [ngClass]="{ 'is-invalid':  control.telefono.touched && control.telefono.errors}" max="15"/>
+
+          <div *ngIf="control.telefono.errors" class="invalid-feedback">
+          <div *ngIf="control.telefono.errors.required">Se require el telefono</div>
+          </div>
+        </div>
+      </div>
+  </div>  
+      </form>
+      <button name="boton2" type="button" class="btn btn-secondary  btn-block" (click)="onSubmit()" [disabled]="formGroup.invalid">Registrar</button>
+    </section>
+     
+    <section class="form-registro2">
+      <form [formGroup]= "formGroup">
+
+        
+          <div class="">
+              <div class="form-group ">
+                  <label for="nombre" class="">E-mail:</label>
+                <div class="">
+                  <input type="email"  name="email" formControlName="email"  class="form-control"
+                  [ngClass]="{ 'is-invalid':  control.email.touched && control.email.errors}" minlength = "20" maxlength="40"/>
+
+                  <div *ngIf="control.email.errors" class="invalid-feedback">
+                  <div *ngIf="control.email.errors.required">Se require el email</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+  
+          <div class="">
+              <div class="form-group ">
+                  <label for="nombre" class="">Estado Civil:</label>
+                <div class="">
+                  <!-- <input type="text"  name="estadoCivil" formControlName="estadoCivil"  class="form-control"
+                  [ngClass]="{ 'is-invalid':  control.estadoCivil.touched && control.estadoCivil.errors}" />
+                   -->
+                  <select name="estadoCivil"  formControlName="estadoCivil" class ="form-control"
+                  [ngClass]="{ 'is-invalid':  control.estadoCivil.touched && control.estadoCivil.errors}">
+                    <option value="value1" selected="selected">Seleccione</option>
+                    <option value="SOLTERO (A)" >SOLTERO (A)</option>
+                    <option value="CASADO (A)">CASADO (A)</option>
+                    <option value="SEPARADO (A)">SEPARADO (A)</option>
+                    <option value="DIVORCIADO (A)">DIVORCIADO (A)</option>
+                    <option value="VIUDO (A)">VIUDO (A)</option>
+                    <option value="UNION LIBRE">UNION LIBRE</option>
+                  </select>
+                  <div *ngIf="control.estadoCivil.errors" class="invalid-feedback">
+                  <div *ngIf="control.estadoCivil.errors.required">Se require el estado civil</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+  
+          <div class ="">
+              <div class ="form-group ">
+                  <label for="nombre" class="">Pais de Procedencia:</label>
+                <div class="">
+                  <input type="text"  name="paisProcedencia" formControlName="paisProcedencia"  class="form-control"
+                  [ngClass]="{ 'is-invalid':  control.paisProcedencia.touched && control.paisProcedencia.errors}" maxlength="15"/>
+
+                  <div *ngIf="control.paisProcedencia.errors" class="invalid-feedback">
+                  <div *ngIf="control.paisProcedencia.errors.required">Se require el pais de procedencia</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+  
+          <div class="">
+              <div class ="form-group ">
+                  <label for="nombre" class="">Nivel Educativo:</label>
+                <div class="">
+                  <input type="text"  name="nivelEducativo" formControlName="nivelEducativo"  class="form-control"
+                  [ngClass]="{ 'is-invalid':  control.nivelEducativo.touched && control.nivelEducativo.errors}" maxlength="15" />
+
+                  <div *ngIf="control.nivelEducativo.errors" class="invalid-feedback">
+                  <div *ngIf="control.nivelEducativo.errors.required">Se require el nivel educativo</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="">
+            <div class="form-group ">
+                <label for="usuario" class="">Usuario:</label>
+              <div class="">
+            <input type="text" name="usuario" formControlName="usuario" class="form-control"
+              [ngClass]="{'is-invalid':  control.usuario.touched && control.usuario.errors}"  minlength="10" maxlength="40"/>
+              <div *ngIf="control.usuario.errors" class="invalid-feedback">
+                <div *ngIf ="control.usuario.errors.required">Se requiere el usuario</div>
+              </div>
+              </div>
+            </div>
+        </div>
+        <div class="">
+          <div class="form-group ">
+              <label for="contrasena" class="">Contraseña:</label>
+            <div class="">
+          <input type="password" name="contrasena" formControlName="contrasena" class="form-control"
+            [ngClass]="{'is-invalid':  control.contrasena.touched && control.contrasena.errors}"  maxlength="40"/>
+            <div *ngIf="control.contrasena.errors" class="invalid-feedback">
+              <div *ngIf ="control.contrasena.errors.required">Se requiere la contraseña</div>
+            </div>
+            </div>
+          </div>
+      </div>
+          <div class="">
+            <div class ="form-group2">
+                <label for="nombre" class="">NIT restaurante:</label>
+              <div class="">
+                <input type="text"  name="Idrestaurante" formControlName="Idrestaurante"  class="form-control"
+                [ngClass]="{ 'is-invalid':  control.Idrestaurante.touched && control.Idrestaurante.errors}" />
+
+                <div *ngIf="control.Idrestaurante.errors" class="invalid-feedback">
+                <div *ngIf="control.Idrestaurante.errors.required">Se require el id</div>
+                </div>
+              </div>
+            </div>
+        </div>
+          <!-- <div class="col-xs-10 col-sm-8 col-md-8">
+            <div class ="form-group row">
+              <label for="nombre" class="col-form-label col-sm-4">NIT restaurante: </label>
+              <div class="col-sm-8">
+                <select name="tiporestaurante" class="form-control" formControlName="tiporestaurante" 
+                  [ngClass]="{ 'is-invalid': control.tiporestaurante.touched && control.tiporestaurante.errors}">
+                    
+                  <option *ngFor="let restaurante of restaurantes; index as i " value="restaurante.nit">
+                      {{restaurante.nit}}</option>
+                </select>
+              </div>
+            </div>
+        </div> -->
+      </form>
+        
+       
+       <button type="button" class="btn btn-secondary btn-block" >Cancelar</button>
+    </section>
+</section>

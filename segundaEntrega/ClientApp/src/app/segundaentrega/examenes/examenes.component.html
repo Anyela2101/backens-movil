@@ -1,0 +1,67 @@
+<section class="form-registro">
+  <h1 align="center">Examenes</h1>
+  <section class="form-registro1">
+    <div class="">
+      <div class="form-group">
+        <label class="">Identificacion:</label>
+          <div class="">
+            <input [(ngModel)]="identificacion" type="text" class="form-control">    
+          </div>
+        </div>
+      </div>
+
+      <div class="">
+            <div class="form-group">
+                <label for="nombre" class="">Nombres:</label>
+              <div class="">
+                <input type="text"  name="nombrerepersonal" [(ngModel)]="persona.nombres" class="form-control" readonly  />
+              </div>
+            </div>
+        </div>
+        
+        <div class="">
+            <div class="form-group">
+                <label for="nombre" class="">Apellidos:</label>
+              <div class="">
+                <input type="text"  name="apellidopersonal" [(ngModel)]="persona.apellidos" class="form-control" readonly  />
+              </div>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="form-group">
+                <label for="nombre" class="">Edad:</label>
+              <div class="">
+                <input type="int"  name="edadpersonal" [(ngModel)]="persona.edad" class="form-control" readonly  />
+              </div>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="form-group">
+                <label for="nombre" class="">Nombre de examenes realizado:</label>
+              <div class="">
+            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="" tabindex="1">
+              </div>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="form-group">
+                <label for="nombre" class="">Adjuntar Examenes:</label>
+              <div class="">
+                <input type="file" name="file" id="file" class="form-control" placeholder="" tabindex="1"(change)="subirArchivo($event.target.files)">
+              </div>
+              
+            </div>
+        </div>
+        <button class="btn btn-secondary btn-block"(click)="add()">Finalizar</button>
+        
+       
+       </section>
+       <section class="form-registro2">
+          <button class="btn btn-secondary btn-block">Guardar</button>
+          <button class="btn2 btn-secondary btn-block"(click)="Buscar()">Buscar</button>
+       </section>
+       
+</section>

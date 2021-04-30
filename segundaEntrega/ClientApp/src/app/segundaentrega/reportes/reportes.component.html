@@ -1,0 +1,85 @@
+<section class="form-registro">
+    <h1 align="center">Reportes</h1>
+    <section class="form-registro1">
+        <div id="htmlData">
+            <div class="">
+                <div class="form-group">
+                    <label class="">Restaurantes</label>
+                    
+                </div>
+            </div>
+            <table class ="table table-striped" *ngIf='restaurantes && restaurantes.length'>
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nit </th>
+                        <th scope="col">Nombre </th>
+                        <th scope="col">Propietario</th>
+                        <th scope="col">Direccion </th>
+                        <th scope="col">Cantidad Personal </th>
+                        <th scope="col">Telefono </th>
+                        <th scope="col">Email </th>
+                        <th scope="col">Sedes </th>
+                        <th scope="col">Año Funcionamiento</th>
+                        <th scope="col">Especialidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let restaurante of restaurantes; index as i ">
+                        <th scope="row">{{ i + 1 }}</th>
+                        <td>{{restaurante.nit}}</td>
+                        <td>{{restaurante.nombre}}</td>
+                        <td>{{restaurante.propietario}}</td>
+                        <td>{{restaurante.direccion}}</td>
+                        <td>{{restaurante.cantidadPersonal}}</td>
+                        <td>{{restaurante.telefono}}</td>
+                        <td>{{restaurante.email }}</td>
+                        <td>{{restaurante.sedes}}</td>
+                        <td>{{restaurante.especialidad}}</td>
+                        <td>{{restaurante.especialidad}}</td>        
+                  </tr>
+                </tbody>
+            </table>
+            <div class="">
+                <div class="form-group">
+                    <label class="">Personal</label>
+                </div>
+            </div>
+            <table class ="table table-striped" *ngIf='personas && personas.length'>
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Identificación </th>
+                        <th scope="col">Nombres </th>
+                        <th scope="col">Apellidos </th>
+                        <th scope="col">Edad </th>
+                        <th scope="col">sexo </th>
+                        <th scope="col">Telefono </th>
+                        <th scope="col">Email </th>
+                        <th scope="col">Estado Civil </th>
+                        <th scope="col">Pais Procedencia </th>
+                        <th scope="col">Nivel Educativo </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let persona of personas; index as i ">
+                        <th scope="row">{{ i + 1 }}</th>
+                        <td>{{ persona.identificacion }}</td>
+                        <td>{{ persona.nombres }}</td>
+                        <td>{{ persona.apellidos }}</td>
+                        <td>{{persona.edad}}</td>
+                        <td>{{ persona.sexo }}</td>
+                        <td>{{persona.telefono}}</td>
+                        <td>{{ persona.email }}</td>
+                        <td>{{ persona.estadoCivil}}</td>
+                        <td>{{ persona.paisProcedencia}}</td>
+                        <td>{{ persona.nivelEducativo }}</td>                
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <button class="btn col col-lg-4 btn-secondary btn-block ml-4" (click)="downloadPF()"><i class="far fa-file-pdf"></i>Generar Pdf</button> 
+        </div>
+    </section>    
+</section>

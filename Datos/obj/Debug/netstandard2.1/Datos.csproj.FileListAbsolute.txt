@@ -1,0 +1,60 @@
+C:\Users\HP\Documents\microAlParque\Datos\bin\Debug\netstandard2.1\Datos.deps.json
+C:\Users\HP\Documents\microAlParque\Datos\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\HP\Documents\microAlParque\Datos\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\HP\Documents\microAlParque\Datos\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\HP\Documents\microAlParque\Datos\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\HP\Documents\microAlParque\Datos\obj\Debug\netstandard2.1\Datos.csprojAssemblyReference.cache
+C:\Users\HP\Documents\microAlParque\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\microAlParque\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfo.cs
+C:\Users\HP\Documents\microAlParque\Datos\obj\Debug\netstandard2.1\Datos.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\microAlParque\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
+C:\Users\HP\Documents\microAlParque\Datos\obj\Debug\netstandard2.1\Datos.dll
+C:\Users\HP\Documents\microAlParque\Datos\obj\Debug\netstandard2.1\Datos.pdb
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Datos.deps.json
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.csprojAssemblyReference.cache
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfo.cs
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.dll
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.pdb
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Datos.deps.json
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfo.cs
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.dll
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.pdb
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Datos.deps.json
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.csprojAssemblyReference.cache
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfo.cs
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.dll
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.pdb
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Datos.deps.json
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfo.cs
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.dll
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.pdb

@@ -1,0 +1,17 @@
+.form-home{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .container{
+    
+    position: absolute;
+    top: 200px;
+    left:300px;
+ }
+ .card-imp-top{
+    border: solid blue;
+    left: 300;
+    float: right;
+ }
+ #card-imp-top{
+    border: 1px solid blue;
+ }

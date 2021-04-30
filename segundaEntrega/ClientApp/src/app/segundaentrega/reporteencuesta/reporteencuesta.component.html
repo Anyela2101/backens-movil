@@ -1,0 +1,110 @@
+<section class="form-registro">
+  <h1 align="center">Reporte Encuesta</h1>
+  <div class="row">
+      <div class="col-8">
+        <div class="text-center">
+          <label>Identificacion</label>
+          <input [(ngModel)]="identificacion" type="text" class="form-control" maxlength="10"
+          onkeypress='return event.charCode >= 48 && event.charCode <= 57'>    
+        </div>
+      </div>
+    </div>
+    <button  class="btn2 btn-secondary  btn-lg" (click)="Buscar()">Buscar</button>
+  <section class="form-registro1">
+    <div id="htmlData">
+      <div class="row">
+        <div class="col-8">
+          <div class="text-center2">
+            <label>Nombre</label>
+            <input type="text"  name="nombrerepersonal" [(ngModel)]="persona.nombres" class="form-control" readonly  />
+          </div>
+  
+      </div>
+      <table class ="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Tipo Encuesta</th>
+                <th scope="col">Pregunta1</th>
+                <th scope="col">Pregunta2</th>
+                <th scope="col">Pregunta3</th>
+                <th scope="col">Pregunta4</th>
+                <th scope="col">Pregunta5</th>
+                <th scope="col">Pregunta6</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Conocimientos</td>
+            <td>{{conocimiento.pregunta1}}</td>
+            <td>{{conocimiento.pregunta2}}</td>
+            <td>{{conocimiento.pregunta3}}</td>
+            <td>{{conocimiento.pregunta4}}</td>
+            <td>{{conocimiento.pregunta5}}</td>
+            <td>{{conocimiento.pregunta6}}</td>      
+          </tr>
+          <tr>
+            <td>Actitudes</td>
+            <td>{{actitudes.pregunta1}}</td>
+            <td>{{actitudes.pregunta2}}</td>
+            <td>{{actitudes.pregunta3}}</td>
+            <td>{{actitudes.pregunta4}}</td>
+            <td>{{actitudes.pregunta5}}</td>
+            <td>{{actitudes.pregunta6}}</td>      
+          </tr>
+          <tr>
+            <td>Practicas</td>
+            <td>{{practicas.pregunta1}}</td>
+            <td>{{practicas.pregunta2}}</td>
+            <td>{{practicas.pregunta3}}</td>
+            <td>{{practicas.pregunta4}}</td>
+            <td></td>
+            <td></td>      
+          </tr>
+        </tbody>
+      </table>
+      <div class="Actitudes">
+        <div class="col-8">
+          <div class="">
+            <label>Actitudes</label>
+          </div>
+          <div class="">
+            <label>Total</label>
+            <input type="text" [(ngModel)]="actitudes.total" class="form-control" readonly  />
+          </div>
+        </div>
+      </div>
+
+      <div class="Conocimientos">
+        <div class="col-8">
+          <div class="">
+            <label>Conocimientos</label>
+          </div>
+          <div class="">
+            <label>Total</label>
+            <input type="text"  [(ngModel)]="conocimiento.total" class="form-control" readonly  />
+          </div>
+        </div>
+      </div>
+
+      <div class="practicas">
+        <div class="col-8">
+          <div class="">
+            <label>Practicas</label>
+          </div>
+          <div class="">
+            <label>Total</label>
+            <input type="text"  [(ngModel)]="practicas.total" class="form-control" readonly  />
+          </div>
+        </div>
+      </div>
+        
+      </div>
+    </div>
+  </section>
+  <section class="form-registro2">
+    
+  <div>
+    <button class="btn col col-lg-4 btn-secondary btn-block ml-4" (click)="downloadPF()"><i class="far fa-file-pdf"></i>Generar Pdf</button> 
+  </div>
+  </section>
+</section>

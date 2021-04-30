@@ -1,0 +1,70 @@
+<section class="form-registro">
+  <h1 align="center">Reporte Lista Chequeo</h1>
+  <div class="row">
+    <div class="col-6">
+      <div class="hola">
+        <label>NIT</label>
+        <input [(ngModel)]="nit" type="text" class="form-control">    
+      </div>
+    </div>
+  </div>
+    <button  class="btn2 btn-secondary btn-block btn-lg" (click)="Buscar()">Buscar</button>
+  <section class="form-registro1">
+    <div id="htmlData">
+      <div class="row">
+        <div class="col-8">
+          <div class="text-center2">
+            <label>Nombre Restaurante</label>
+            <input type="text" [(ngModel)]="restaurante.nombre" class="form-control" readonly />
+          </div>
+
+        </div>
+        <table class="">
+          <thead>
+            <tr>
+              <th scope="col">Pregunta1</th>
+              <th scope="col">Pregunta2</th>
+              <th scope="col">Pregunta3</th>
+              <th scope="col">Pregunta4</th>
+              <th scope="col">Pregunta5</th>
+              <th scope="col">Pregunta6</th>
+              <th scope="col">Pregunta7</th>
+              <th scope="col">Pregunta8</th>
+              <th scope="col">Pregunta9</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{listachequeo.pregunta1}}</td>
+              <td>{{listachequeo.pregunta2}}</td>
+              <td>{{listachequeo.pregunta3}}</td>
+              <td>{{listachequeo.pregunta4}}</td>
+              <td>{{listachequeo.pregunta5}}</td>
+              <td>{{listachequeo.pregunta6}}</td>
+              <td>{{listachequeo.pregunta7}}</td>
+              <td>{{listachequeo.pregunta8}}</td>
+              <td>{{listachequeo.pregunta9}}</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="Actitudes">
+          <div class="col-8">
+            <div class="">
+              <div class="">
+                <label>Total</label>
+                <input type="text" [(ngModel)]="listachequeo.total" class="form-control" readonly />
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="form-registro2">
+    <div>
+      <button class="btn col col-lg-4 btn-secondary btn-block ml-4" (click)="downloadPF()"><i
+          class="far fa-file-pdf"></i>Generar Pdf</button>
+    </div>
+  </section>
+</section>

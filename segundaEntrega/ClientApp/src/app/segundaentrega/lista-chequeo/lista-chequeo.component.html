@@ -1,0 +1,151 @@
+<section class="form-registro">
+    <h1 align="center">Practicas Higienico Sanitarias </h1>
+    <section class="form-registro1">
+      <div class="row">
+        <div class="col-8">
+          <div class="text-center">
+            <label>NIT</label>
+            <input [(ngModel)]="nit" type="text" class="form-control" maxlength="15"
+            onkeypress='return event.charCode >= 48 && event.charCode <= 57'>    
+          </div>
+        </div>
+      </div>
+      <button  class="btn2 btn-secondary btn-lg" (click)="Buscar()">Buscar</button>    
+      <form [formGroup]="formGroup">
+        <div class="pregresp">
+          <div class="pregunta1">1. El personal manipulador tiene certificado medico<br />
+          </div>
+          <div class="form-group">
+            <select name="pregunta1" class="form-control" formControlName="pregunta1"
+              [ngClass]="{ 'is-invalid': control.pregunta1.touched && control.pregunta1.errors}">
+              <option value="1">C</option>
+              <option value="0">NC</option>
+              <option value="0,5">CP</option>
+              <option value="0">NA</option>
+            </select>
+          </div>
+        </div>
+        <div class="pregresp">
+          <div class="pregunta2">2. Los manipuladores acreditan cursos en higiene y proteccion de alimentos<br />
+          </div>
+          <div class="form-group">
+            <select name="pregunta2" class="form-control" formControlName="pregunta2"
+              [ngClass]="{ 'is-invalid': control.pregunta2.touched && control.pregunta2.errors}">
+              <option value="1">C</option>
+              <option value="0">NC</option>
+              <option value="0,5">CP</option>
+              <option value="0">NA</option>
+            </select>
+          </div>
+        </div>
+        <div class="pregresp">
+          <div class="pregunta3">3. Los empleados que manipulan alimentos utilizan uniformes adecuados de color claro, limpio y calzado cerrado<br />
+          </div>
+          <div class="form-group">
+            <select name="pregunta3" class="form-control" formControlName="pregunta3"
+              [ngClass]="{ 'is-invalid': control.pregunta3.touched && control.pregunta3.errors}">
+              <option value="1">C</option>
+              <option value="0">NC</option>
+              <option value="0,5">CP</option>
+              <option value="0">NA</option>
+            </select>
+          </div>
+        </div>
+        <div class="pregresp">
+            <div class="pregunta4">4. Las manos de los trabajadores se encuentran limpias, con joyas, uñas cortas y sin esmalte<br />
+            </div>
+            <div class="form-group">
+              <select name="pregunta4" class="form-control" formControlName="pregunta4"
+                [ngClass]="{ 'is-invalid': control.pregunta4.touched && control.pregunta4.errors}">
+                <option value="1">C</option>
+                <option value="0">NC</option>
+                <option value="0,5">CP</option>
+                <option value="0">NA</option>
+              </select>
+            </div>
+        </div>
+        <div class="pregresp">
+          <div class="pregunta4">5. Los manipuladores evitan practicas antihigienicas tales como comer, fumar, toser, escupir o rascarse<br />
+          </div>
+          <div class="form-group">
+            <select name="pregunta5" class="form-control" formControlName="pregunta5"
+              [ngClass]="{ 'is-invalid': control.pregunta5.touched && control.pregunta5.errors}">
+              <option value="1">C</option>
+              <option value="0">NC</option>
+              <option value="0,5">CP</option>
+              <option value="0">NA</option>
+            </select>
+          </div>
+        </div>
+        <button type="button" class="btn btn-secondary my-2 my-sm-0 btn-lg btn-block" (click)="onSubmit()">Siguiente</button>
+      </form>
+  
+    </section>
+    <section class="form-registro2">
+      <div class="row">
+        <div class="col-8">
+          <div class="text-center2">
+          <label>Nombre Restaurante</label>
+          <input type="text"  name="nombrerestaurante" [(ngModel)]="restaurante.nombre" class="form-control" readonly  />
+        </div>
+      </div>
+    </div>
+      <form [formGroup]="formGroup">
+        
+        
+        <div class="pregresp">
+          <div class="pregunta6">6. Los manipuladores se lavan y se desinfectan las manos hasta el codo, cada vez que sea necesario<br />
+          </div>
+          <div class="form-group">
+            <select name="pregunta6" class="form-control" formControlName="pregunta6"
+              [ngClass]="{ 'is-invalid': control.pregunta6.touched && control.pregunta6.errors}">
+              <option value="1">C</option>
+              <option value="0">NC</option>
+              <option value="0,5">CP</option>
+              <option value="0">NA</option>
+            </select>
+          </div>
+        </div>
+        <div class="pregresp">
+          <div class="pregunta7">7. Se evidencian equipos e implementos de seguridad en funcionamiento y ubicados correctamente (extintores, campanas extractoras, barandas, etc.)<br />
+          </div>
+          <div class="form-group">
+            <select name="pregunta7" class="form-control" formControlName="pregunta7"
+              [ngClass]="{ 'is-invalid': control.pregunta7.touched && control.pregunta7.errors}">
+              <option value="1">C</option>
+              <option value="0">NC</option>
+              <option value="0,5">CP</option>
+              <option value="0">NA</option>
+            </select>
+          </div>
+        </div>
+        <div class="pregresp">
+            <div class="pregunta8">8. El establecimiento dispone de botiquín bien dotado y ubicado en un lugar visible<br />
+            </div>
+            <div class="form-group">
+              <select name="pregunta8" class="form-control" formControlName="pregunta8"
+                [ngClass]="{ 'is-invalid': control.pregunta8.touched && control.pregunta8.errors}">
+                <option value="1">C</option>
+                <option value="0">NC</option>
+               <option value="0,5">CP</option>
+                <option value="0">NA</option>
+              </select>
+            </div>
+        </div>
+        <div class="pregresp2">
+            <div class="pregunta9">9. Se cuenta con equipos de protección personal en función de las actividades realizadas ej: guantes de malla metálica, chaquetas, etc.<br />
+            </div>
+            <div class="form-group">
+              <select name="pregunta9" class="form-control" formControlName="pregunta9"
+                [ngClass]="{ 'is-invalid': control.pregunta9.touched && control.pregunta9.errors}">
+                <option value="1">C</option>
+               <option value="0">NC</option>
+                <option value="0,5">CP</option>
+                <option value="0">NA</option>
+              </select>
+            </div>
+        </div>
+        <button type="button" class="btn btn-secondary my-2 my-sm-0 btn-lg btn-block">Anterior</button>
+      </form>
+    </section>
+  </section>

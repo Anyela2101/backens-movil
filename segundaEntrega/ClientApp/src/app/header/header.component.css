@@ -1,0 +1,27 @@
+form {
+    right: 20px !important;
+    position: fixed;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: #e52818;
+    padding: 20px;
+    z-index: 100;
+}
+.navbar-brand{
+    color: #ccc;
+}
+
+.navbar h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.navbar span{
+    color: rgb(109, 103, 103);
+    text-transform: uppercase;
+    font-weight: 900;
+}

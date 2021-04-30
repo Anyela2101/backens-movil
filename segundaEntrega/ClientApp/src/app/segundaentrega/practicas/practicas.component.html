@@ -1,0 +1,78 @@
+<section class="form-registro">
+  <h1 align="center">Practicas </h1>
+  <section class="form-registro1">
+    <div class="row">
+      <div class="col-8">
+        <div class="text-center">
+          <label>Identificacion</label> 
+          <input [(ngModel)]="identificacion" type="text"
+          onkeypress='return event.charCode >= 48 && event.charCode <= 57'
+           class="form-control" maxlength="12">    
+        </div>
+      </div>
+    </div>
+    <button  class="btn2 btn-secondary btn-lg"(click)="Buscar()">Buscar</button>     
+    <form [formGroup]="formGroup">
+      <div class="pregresp">
+        <div class="pregunta1">1. ¿utiliza bata, tapa bocas y malla para cubrir el cabello mientras manipula alimentos?<br />
+        </div>
+        <div class="form-group">
+          <select name="pregunta1" class="form-control" formControlName="pregunta1" [ngClass]="{ 'is-invalid': control.pregunta1.touched && control.pregunta1.errors}">
+            <option value="1">Si</option>
+            <option value="0">No</option>
+            <option value="0">Ns/Nc</option>
+          </select>
+        </div>
+      </div>
+      <div class="pregresp">
+        <div class="pregunta2">2. ¿Manipula alimentos y dinero al mismo tiempo?<br />
+        </div>
+        <div class="form-group">
+          <select name="pregunta2" class="form-control" formControlName="pregunta2" [ngClass]="{ 'is-invalid': control.pregunta2.touched && control.pregunta2.errors}">
+            <option value="1">Si</option>
+            <option value="0">No</option>
+            <option value="0">Ns/Nc</option>
+          </select>
+        </div>
+      </div>
+      
+      <button type="button" class="btn btn-secondary my-2 my-sm-0 btn-lg btn-block" (click)="onSubmit()">Finalizar</button>
+    </form>
+    
+  </section>
+  <section class="form-registro2">
+    <div class="row">
+      <div class="col-8">
+        <div class="text-center2">
+        <label>Nombre</label>
+        <input type="text"  name="nombrerepersonal" [(ngModel)]="persona.nombres" class="form-control" readonly  />
+      </div>
+    </div>
+  </div>
+    <form [formGroup]="formGroup">
+      
+      <div class="pregresp">
+        <div class="pregunta3">3. ¿Con que frecuencia se lava las manos para manipular alimentos?<br />
+        </div>
+        <div class="form-group">
+          <input type="text" name="pregunta3" formControlName="pregunta3" class="form-control" maxlength="10"
+            [ngClass]="{'is-invalid': control.pregunta3.touched && control.pregunta3.errors}"> Este campo es obligatorio.
+        </div>
+      </div>
+      <div class="pregresp">
+        <div class="pregunta4">4. Al momento de preparar alimentos ¿Retira sus prendas?<br />
+        </div>
+        <div class="form-group">
+          <select name="pregunta4" class="form-control" formControlName="pregunta4" [ngClass]="{ 'is-invalid': control.pregunta4.touched && control.pregunta4.errors}">
+            <option value="1">Si</option>
+            <option value="0">No</option>
+            <option value="0">Ns/Nc</option>
+          </select>
+        </div>
+      </div>
+      <button type="button" class="btn btn-secondary my-2 my-sm-0 btn-lg btn-block">Anterior</button>
+    </form> 
+  </section>     
+</section>
+
+

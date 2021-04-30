@@ -1,0 +1,33 @@
+<section class="form-registro">
+    <h1 align="center">Consultar Restaurante</h1>
+   <table class ="table table-striped" *ngIf='restaurantes && restaurantes.length'>
+       <thead>
+           <tr>
+               <th scope="col">#</th>
+               <th scope="col">Nit </th>
+               <th scope="col">Nombre </th>
+               <th scope="col">Propietario</th>
+               <th scope="col">Direccion </th>
+               <th scope="col">Cantidad Personal </th>
+               <th scope="col">Telefono </th>
+               <th scope="col">Email </th>
+               <th scope="col">Sedes </th>
+               <th scope="col">Especialidad</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr *ngFor="let restaurante of restaurantes; index as i ">
+               <th scope="row">{{ i + 1 }}</th>
+               <td>{{restaurante.nit}}</td>
+               <td>{{restaurante.nombre}}</td>
+               <td>{{restaurante.propietario}}</td>
+               <td>{{restaurante.direccion}}</td>
+               <td>{{restaurante.cantidadPersonal}}</td>
+               <td>{{restaurante.telefono}}</td>
+               <td>{{restaurante.email }}</td>
+               <td>{{restaurante.sedes}}</td>
+               <td>{{restaurante.especialidad}}</td>        
+         </tr>
+       </tbody>
+   </table>
+</section>

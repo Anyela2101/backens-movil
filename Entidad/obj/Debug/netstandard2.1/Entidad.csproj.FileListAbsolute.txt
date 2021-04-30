@@ -1,0 +1,45 @@
+C:\Users\HP\Documents\microAlParque\Entidad\bin\Debug\netstandard2.1\Entidad.deps.json
+C:\Users\HP\Documents\microAlParque\Entidad\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\HP\Documents\microAlParque\Entidad\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\HP\Documents\microAlParque\Entidad\obj\Debug\netstandard2.1\Entidad.csprojAssemblyReference.cache
+C:\Users\HP\Documents\microAlParque\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\microAlParque\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfo.cs
+C:\Users\HP\Documents\microAlParque\Entidad\obj\Debug\netstandard2.1\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\microAlParque\Entidad\obj\Debug\netstandard2.1\Entidad.dll
+C:\Users\HP\Documents\microAlParque\Entidad\obj\Debug\netstandard2.1\Entidad.pdb
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Entidad\bin\Debug\netstandard2.1\Entidad.deps.json
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Entidad\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Entidad\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.csprojAssemblyReference.cache
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfo.cs
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.dll
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.pdb
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Entidad\bin\Debug\netstandard2.1\Entidad.deps.json
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Entidad\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Entidad\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfo.cs
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.dll
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.pdb
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\bin\Debug\netstandard2.1\Entidad.deps.json
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.csprojAssemblyReference.cache
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfo.cs
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.dll
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.pdb
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\bin\Debug\netstandard2.1\Entidad.deps.json
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfo.cs
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.dll
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.pdb

@@ -1,0 +1,16 @@
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color:  #e52818;
+    color: white;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    margin-left: 250px;
+    z-index: 100;
+  }
+
+  footer a{
+    color: #000;
+  }

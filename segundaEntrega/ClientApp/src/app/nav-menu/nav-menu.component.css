@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.Sidebar{
+  background:  #615d5d;
+  margin-top: 80px;
+  padding: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  z-index: 100;
+}
+
+.Sidebar .profile_image{
+  border-radius: 100px;
+  margin-bottom: 100px;
+}
+
+.Sidebar h4{
+  color: #ccc;
+  margin-top: -30%;
+  margin-bottom: 10px;
+}
+
+.Sub-Menu{
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.37);
+}
+
+.btnbarra{
+  height: 2rem;
+  color: rgb(255, 255, 255);
+  font-size: 0.4cm;
+  background: transparent;
+  border: none;
+}
+.btnbarra:hover{
+  color: black;
+  background-color: rgb(250, 81, 81);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.btnbarra:focus {
+  outline: none; 
+}
+
+.Sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 54px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property:background;
+}
+
+.Sidebar a:hover{
+  background:  #e52818;
+}
+.Sidebar i{
+  padding-right: 10px;
+}
+ 
+.Ocultar{
+  display: none;
+}
+ 

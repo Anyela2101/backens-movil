@@ -1,0 +1,164 @@
+
+<section class="form-registro">
+  <h1 align ="center">Registrar Restaurantes</h1>
+  <section class="form-registro1">
+    <form [formGroup]= "formGroup">
+      <div class="">
+
+        <div class="form-group ">
+          <label for="nombre" class="">Nit:</label>
+          <div class="">
+             <input id="nit" type="text"  name="nit" formControlName="nit" maxlength="15" class="form-control"
+             maxlength="15"
+             onkeypress='return event.charCode >= 48 && event.charCode <= 57'
+              [ngClass]="{ 'is-invalid':  control.nit.touched && control.nit.errors }" />
+                  <div *ngIf="control.nit.errors" class="invalid-feedback">
+                    <div *ngIf ="control.nit.errors.required">Se require el Nit</div>
+                  </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="">
+      <div class="form-group ">
+          <label for="nombre" class="">Propietario:</label>
+        <div class="">
+          <input id="nombrepropietario" type="text"  name="propietario" formControlName="propietario" class="form-control"
+          [ngClass]="{ 'is-invalid':  control.propietario.touched && control.propietario.errors}" maxlength="20" />
+
+              <div *ngIf="control.propietario.errors" class="invalid-feedback">
+                  <div *ngIf ="control.propietario.errors.required">Se require el propietario</div>
+                  </div>
+        </div>
+      </div>
+  </div>
+    <div class="">
+        <div class="form-group">
+            <label for="nombre" class ="">Direccion:</label>
+          <div class="">
+            <input id="direccion" type="text"  name="direccion" formControlName="direccion" class="form-control" 
+            [ngClass]="{ 'is-invalid':  control.direccion.touched && control.direccion.errors}" maxlength="25"/>
+
+            <div *ngIf="control.direccion.errors" class="invalid-feedback">
+                <div *ngIf="control.direccion.errors.required">Se require la direccion</div>
+                </div>
+          </div>
+        </div>
+    </div>
+    <div class="">
+      <div class="form-group">
+          <label for="nombre" class="">Cantidad Personal:</label>
+        <div class="">
+          <input id="cantidadpersonal" type ="number" name="cantidadPersonal" formControlName="cantidadPersonal" class ="form-control"
+          [ngClass]="{ 'is-invalid':  control.cantidadPersonal.touched && control.cantidadPersonal.errors}" min = "0"/>
+          <div *ngIf="control.cantidadPersonal.errors" class="invalid-feedback">
+            <div *ngIf="control.cantidadPersonal.errors.required">Se require la cantidad personal</div>
+            </div>
+        </div>
+      </div>
+  </div>
+  <div class="">
+    <div class ="form-group ">
+        <label for="nombre" class="">Especialidad:</label>
+      <div class="">
+        <input id="especialidad" type="text"  name="especialidad" formControlName="especialidad"  class="form-control"
+        [ngClass]="{ 'is-invalid':  control.especialidad.touched && control.especialidad.errors}" maxlength="25"/>
+          <div *ngIf="control.especialidad.errors" class="invalid-feedback">
+            <div *ngIf="control.especialidad.errors.required">Se require la especialidad </div>
+            </div>
+      </div>
+    </div>
+</div>
+    </form>
+    <button id="btn-registrar" name="boton2" type="button" class="btn btn-secondary  btn-block" (click)="onSubmit()" [disabled]="formGroup.invalid">Registrar</button>
+
+  </section>
+     
+  <section class="form-registro2">
+    <form [formGroup]= "formGroup">
+      <div class="">
+        <div class="form-group">
+            <label for="nombre" class="">Nombre:</label>
+          <div class="">
+            <!-- <script>
+              function soloLetras(e) {
+                console.log("asdasd");
+                var key = e.keyCode || e.which,
+                  tecla = String.fromCharCode(key).toLowerCase(),
+                  letras = " áéíóúabcdefghijklmnñopqrstuvwxyz",
+                  especiales = [8, 37, 39, 46],
+                  tecla_especial = false;
+            
+                for (var i in especiales) {
+                  if (key == especiales[i]) {
+                    tecla_especial = true;
+                    break;
+                  }
+                }
+            
+                if (letras.indexOf(tecla) == -1 && !tecla_especial) {
+                  return false;
+                }
+              }
+             
+            </script> -->
+        <input  id="nombre" type="text" name="nombre" formControlName="nombre" class="form-control"
+          [ngClass]="{'is-invalid':control.nombre.touched  && control.nombre.errors}"  maxlength="20"/>
+          <div *ngIf="control.nombre.errors" class="invalid-feedback">
+            <div *ngIf ="control.nombre.errors.required">Se requiere el nombre</div>
+          </div>
+          </div>
+        </div>
+    </div>
+    
+    <div class="">
+      <div class="form-group ">
+          <label for ="nombre" class="">Telefono:</label>
+        <div class="">
+          <input id="telefono" type="text"  name="telefono" formControlName="telefono"  class="form-control"
+          onkeypress='return event.charCode >= 48 && event.charCode <= 57'
+          [ngClass]="{ 'is-invalid':  control.telefono.touched && control.telefono.errors}" maxlength="15"/>
+          <div *ngIf="control.telefono.errors" class="invalid-feedback">
+            <div *ngIf="control.telefono.errors.required">Se require el telefono </div>
+          </div>
+        </div>
+      </div>
+  </div>  
+        <div class="">
+            <div class="form-group">
+                <label class="">E-mail:</label>
+              <div class="">
+                <input id="email" type="text"  name="email" formControlName="email"  class="form-control"
+                [ngClass]="{ 'is-invalid':  control.email.touched && control.email.errors}" minlength = "20" maxlength="40"/>
+                <div *ngIf="control.email.errors" class="invalid-feedback">
+                  <div *ngIf="control.email.errors.required">Se require el email </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="form-group">
+                <label for="nombre" class="">Sedes:</label>
+              <div class="">
+                <input id="sedes" type="number"  name="sedes" formControlName="sedes"  class="form-control"
+                [ngClass]="{ 'is-invalid':  control.sedes.touched && control.sedes.errors}" min="0"/>
+                <div *ngIf="control.sedes.errors" class="invalid-feedback">
+                  <div *ngIf="control.sedes.errors.required">Se require la sede </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class ="">
+            <div class ="form-group">
+                <label for ="nombre" class="">Año Funcionamiento:</label>
+              <div class="">
+                <input id="afuncionamiento" type="number"  name="añoFuncionamiento" formControlName="añoFuncionamiento"  class="form-control" min="0"/>
+                
+              </div>
+            </div>
+        </div>   
+    </form>
+     <button type="button" class="btn btn-secondary btn-block">Cancelar</button>
+  </section>
+</section>
+

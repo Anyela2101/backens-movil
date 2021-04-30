@@ -1,0 +1,97 @@
+<section class="form-registro">
+  <h1 align="center">Actitudes </h1>
+  <section class="form-registro1">
+    <div class="row">
+      <div class="col-8">
+        <div class="text-center">
+          <label>Identificacion</label> 
+          <input [(ngModel)]="identificacion" type="text" 
+          onkeypress='return event.charCode >= 48 && event.charCode <= 57'
+          class="form-control" maxlength="12">    
+        </div>
+      </div>
+    </div>
+    <button  class="btn2 btn-secondary btn-lg"(click)="Buscar()">Buscar</button>    
+    <form [formGroup]="formGroup">
+      <div class="pregresp">
+        <div class="pregunta1">1. ¿Considera nencesaria una capacitacion sobre normas de higiene y manipulacion de alimentos para mejorar sus procesos y su negocio?<br />
+        </div>
+        <div class="form-group">
+          <select name="pregunta1" class="form-control" formControlName="pregunta1" [ngClass]="{ 'is-invalid': control.pregunta1.touched && control.pregunta1.errors}">
+            <option value="1">Si</option>
+            <option value="0">No</option>
+            <option value="0">Ns/Nc</option>
+          </select>
+        </div>
+      </div>
+      <div class="pregresp">
+        <div class="pregunta2">2. ¿Ha renovado el ultimo año su certificado medico?<br />
+        </div>
+        <div class="form-group">
+          <select name="pregunta2" class="form-control" formControlName="pregunta2" [ngClass]="{ 'is-invalid': control.pregunta2.touched && control.pregunta2.errors}">
+            <option value="1">Si</option>
+            <option value="0">No</option>
+            <option value="0">Ns/Nc</option>
+          </select>
+        </div>
+      </div>
+      <div class="pregresp">
+        <div class="pregunta3">3. ¿Se ha realizado los examenes para manipuladores de alimentos (KOH de uñas, frotis de garganta y cropologico)?<br />
+        </div>
+        <div class="form-group">
+          <select name="pregunta3" class="form-control" formControlName="pregunta3" [ngClass]="{ 'is-invalid': control.pregunta3.touched && control.pregunta3.errors}">
+            <option value="1">Si</option>
+            <option value="0">No</option>
+            <option value="0">Ns/Nc</option>
+          </select>
+        </div>
+      </div>
+      <button type="button" class="btn btn-secondary my-2 my-sm-0 btn-lg btn-block" (click)="onSubmit()">Siguiente</button>
+    </form>
+    
+  </section>
+  <section class="form-registro2">
+    <div class="row">
+      <div class="col-8">
+        <div class="text-center2">
+        <label>Nombre</label>
+        <input type="text"  name="nombrerepersonal" [(ngModel)]="persona.nombres" class="form-control" readonly  />
+      </div>
+    </div>
+  </div>
+    <form [formGroup]="formGroup">
+      
+      <div class="pregresp">
+        <div class="pregunta4">4. ¿En caso de afirmativo ¿Hace cuanto??<br />
+        </div>
+        <div class="form-group">
+          <input type="text" name="pregunta4" formControlName="pregunta4" class="form-control" maxlength="50"
+            [ngClass]="{'is-invalid': control.pregunta4.touched && control.pregunta4.errors}"> Este campo es obligatorio.
+        </div>
+      </div>
+      <div class="pregresp">
+        <div class="pregunta5">5. ¿Considera que manipular alimentos con las uñas largas y pintadas puede ser inapropiado?<br />
+        </div>
+        <div class="form-group">
+          <select name="pregunta5" class="form-control" formControlName="pregunta5" [ngClass]="{ 'is-invalid': control.pregunta5.touched && control.pregunta5.errors}">
+            <option value="1">Si</option>
+            <option value="0">No</option>
+            <option value="0">Ns/Nc</option>
+          </select>
+        </div>
+      </div>
+      <div class="pregresp">
+        <div class="pregunta6">6. ¿Considera que el uso de prendas puede afectar negativamente el proceso de manipulación de alimentos?<br />
+        </div>
+        <div class="form-group">
+          <select name="pregunta6" class="form-control" formControlName="pregunta6" [ngClass]="{ 'is-invalid': control.pregunta6.touched && control.pregunta6.errors}">
+            <option value="1">Si</option>
+            <option value="0">No</option>
+            <option value="0">Ns/Nc</option>
+          </select>
+        </div>
+      </div>
+      <button type="button" class="btn btn-secondary my-2 my-sm-0 btn-lg btn-block">Anterior</button>
+    </form> 
+  </section>     
+</section>

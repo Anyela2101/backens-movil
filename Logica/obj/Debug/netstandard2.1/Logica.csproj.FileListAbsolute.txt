@@ -1,0 +1,70 @@
+C:\Users\HP\Documents\microAlParque\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\HP\Documents\microAlParque\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\HP\Documents\microAlParque\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\HP\Documents\microAlParque\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\HP\Documents\microAlParque\Logica\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\HP\Documents\microAlParque\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\HP\Documents\microAlParque\Logica\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\HP\Documents\microAlParque\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\HP\Documents\microAlParque\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\microAlParque\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\HP\Documents\microAlParque\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\microAlParque\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\HP\Documents\microAlParque\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\HP\Documents\microAlParque\Logica\obj\Debug\netstandard2.1\Logica.pdb
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\DELL\Downloads\microAlparque\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.pdb
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\HP\Desktop\ASDFGHJK\proyecto3cercorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.pdb
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\DELL\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.pdb
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.pdb

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/11cc6aae-7ec9-46e1-ac81-ef99d2f33122/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/ProyectoMicroAlParque",
+    "appService.deploySubpath": "segundaEntrega\\publish"
+}

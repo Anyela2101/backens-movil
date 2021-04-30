@@ -1,0 +1,43 @@
+<section class="form-registro">
+    <h1 align="center">Consultar Personal</h1>
+    
+<div class="row">
+        <div class="col-6">
+          <input [(ngModel)]="searchText" type="text" class="form-control" placeholder="Type to filter">
+        </div>
+      </div>
+          <table class ="table table-striped" *ngIf='personas && personas.length'>
+            <thead>
+              <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Identificación </th>
+                    <th scope="col">Nombres </th>
+                    <th scope="col">Apellidos </th>
+                    <th scope="col">Edad </th>
+                    <th scope="col">sexo </th>
+                    <th scope="col">Telefono </th>
+                    <th scope="col">Email </th>
+                    <th scope="col">Estado Civil </th>
+                    <th scope="col">Pais Procedencia </th>
+                    <th scope="col">Nivel Educativo </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let persona of personas|filtroPersona : searchText; index as i ">
+                    <th scope="row">{{ i + 1 }}</th>
+                    <td>{{ persona.identificacion }}</td>
+                    <td>{{ persona.nombres }}</td>
+                    <td>{{ persona.apellidos }}</td>
+                    <td>{{persona.edad}}</td>
+                    <td>{{ persona.sexo }}</td>
+                    <td>{{persona.telefono}}</td>
+                    <td>{{ persona.email }}</td>
+                    <td>{{ persona.estadoCivil}}</td>
+                    <td>{{ persona.paisProcedencia}}</td>
+                    <td>{{ persona.nivelEducativo }}</td>       
+                    
+          </tr>
+        </tbody>
+    </table>
+</section>
+

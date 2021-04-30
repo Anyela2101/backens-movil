@@ -101,6 +101,7 @@ namespace segundaEntrega.Controllers
                 restaurante.Sedes=restauranteInput.Sedes;
                 restaurante.AñoFuncionamiento=restauranteInput.AñoFuncionamiento;
                 restaurante.Especialidad=restauranteInput.Especialidad;
+            restaurante.Personals = new List<Persona>();
             return restaurante;
         }
 

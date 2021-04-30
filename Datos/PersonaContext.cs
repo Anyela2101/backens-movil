@@ -16,11 +16,7 @@ namespace Datos
          public DbSet <ListaChequeo> ListaChequeos {get;set;}
 
          protected override void OnModelCreating(ModelBuilder modelBuilder){
-             modelBuilder
-                .Entity<Persona>()
-                .HasOne<Restaurante>()
-                .WithMany()
-                .HasForeignKey(p => p.Idrestaurante);
+
                 modelBuilder
                 .Entity<Conocimientos>()
                 .HasOne<Persona>()

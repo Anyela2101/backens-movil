@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -37,13 +38,20 @@ namespace Entidad
         
         [Column(TypeName = "nvarchar(25)")]
         public string Especialidad { get; set; }
+        public List<Persona> Personals { get; set; }
 
-        public Persona registrarDueño(Persona persona){
+        public Restaurante()
+        {
+            Personals = new List<Persona>();
+        }
+        public Persona registrarDueño(Persona persona)
+        {
             Propietario = persona.Nombres;
             return persona;
         }
 
-        public string ValidarNit(string nit){
+        public string ValidarNit(string nit)
+        {
             NIT = nit;
             return NIT;
         }

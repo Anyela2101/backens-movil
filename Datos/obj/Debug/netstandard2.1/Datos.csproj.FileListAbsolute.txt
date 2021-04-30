@@ -58,3 +58,15 @@ C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAl
 C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
 C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.dll
 C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Datos\obj\Debug\netstandard2.1\Datos.pdb
+C:\Users\norma\Documents\GitHub\backens-movil\Datos\bin\Debug\netstandard2.1\Datos.deps.json
+C:\Users\norma\Documents\GitHub\backens-movil\Datos\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\norma\Documents\GitHub\backens-movil\Datos\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\norma\Documents\GitHub\backens-movil\Datos\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\norma\Documents\GitHub\backens-movil\Datos\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\norma\Documents\GitHub\backens-movil\Datos\obj\Debug\netstandard2.1\Datos.csprojAssemblyReference.cache
+C:\Users\norma\Documents\GitHub\backens-movil\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfoInputs.cache
+C:\Users\norma\Documents\GitHub\backens-movil\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfo.cs
+C:\Users\norma\Documents\GitHub\backens-movil\Datos\obj\Debug\netstandard2.1\Datos.csproj.CoreCompileInputs.cache
+C:\Users\norma\Documents\GitHub\backens-movil\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
+C:\Users\norma\Documents\GitHub\backens-movil\Datos\obj\Debug\netstandard2.1\Datos.dll
+C:\Users\norma\Documents\GitHub\backens-movil\Datos\obj\Debug\netstandard2.1\Datos.pdb

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oX74u8u82hSRZ1mafa7H2kBIe8kuFVKeLIRnyh5KqX07R7H7uHWdJt6/+hY6HM12PjcmrGs0Z66dYP9ddSvl2Q==",
+  "dgSpecHash": "OZfFw9lMUMtj5K40EDWHUXB5kuED+PRyz8+0EniCOwkF7oXQFj0K2AwQWvHFnlKgcE+77coUOfflBrd2Pwa9dA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Desktop\\DELL ANYELA\\Downloads\\MicroAlParque3erCorte-master\\MicroAlParque--master\\Entidad\\Entidad.csproj",
+  "projectFilePath": "C:\\Users\\norma\\Documents\\GitHub\\backens-movil\\Entidad\\Entidad.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\DELL\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    "C:\\Users\\norma\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

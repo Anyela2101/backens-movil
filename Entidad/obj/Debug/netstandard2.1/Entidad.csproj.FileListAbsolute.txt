@@ -43,3 +43,12 @@ C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAl
 C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.dll
 C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Entidad\obj\Debug\netstandard2.1\Entidad.pdb
+C:\Users\norma\Documents\GitHub\backens-movil\Entidad\bin\Debug\netstandard2.1\Entidad.deps.json
+C:\Users\norma\Documents\GitHub\backens-movil\Entidad\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\norma\Documents\GitHub\backens-movil\Entidad\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\norma\Documents\GitHub\backens-movil\Entidad\obj\Debug\netstandard2.1\Entidad.csprojAssemblyReference.cache
+C:\Users\norma\Documents\GitHub\backens-movil\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfoInputs.cache
+C:\Users\norma\Documents\GitHub\backens-movil\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfo.cs
+C:\Users\norma\Documents\GitHub\backens-movil\Entidad\obj\Debug\netstandard2.1\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\norma\Documents\GitHub\backens-movil\Entidad\obj\Debug\netstandard2.1\Entidad.dll
+C:\Users\norma\Documents\GitHub\backens-movil\Entidad\obj\Debug\netstandard2.1\Entidad.pdb

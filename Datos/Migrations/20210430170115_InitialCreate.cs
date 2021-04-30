@@ -86,14 +86,15 @@ namespace Datos.Migrations
                     PaisProcedencia = table.Column<string>(type: "varchar(15)", nullable: true),
                     NivelEducativo = table.Column<string>(type: "varchar(15)", nullable: true),
                     UsuarioUser = table.Column<string>(nullable: true),
-                    Idrestaurante = table.Column<string>(type: "varchar(15)", nullable: true)
+                    Idrestaurante = table.Column<string>(type: "varchar(15)", nullable: true),
+                    RestauranteNIT = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Personas", x => x.Identificacion);
                     table.ForeignKey(
-                        name: "FK_Personas_Restaurantes_Idrestaurante",
-                        column: x => x.Idrestaurante,
+                        name: "FK_Personas_Restaurantes_RestauranteNIT",
+                        column: x => x.RestauranteNIT,
                         principalTable: "Restaurantes",
                         principalColumn: "NIT",
                         onDelete: ReferentialAction.Restrict);
@@ -194,9 +195,9 @@ namespace Datos.Migrations
                 column: "nit");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Personas_Idrestaurante",
+                name: "IX_Personas_RestauranteNIT",
                 table: "Personas",
-                column: "Idrestaurante");
+                column: "RestauranteNIT");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Personas_UsuarioUser",

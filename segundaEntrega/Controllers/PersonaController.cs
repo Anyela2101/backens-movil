@@ -28,13 +28,18 @@ namespace segundaEntrega.Controllers
             var personas = _personaService.ConsultarTodos().Select(p=> new PersonaViewModel(p));
             return personas;
         }
-        /* [HttpGet("{nit}")]
-        public IEnumerable<PersonaViewModel> Gets(string nit){
-            var personas = _personaService.ConsultarTodosxNit(nit).Select(p=> new PersonaViewModel(p));
-            return personas;
-        }
- */
 
+        [HttpPut("PersonalRestaurante")]
+        public ActionResult<RestauranteViewModel> AgregarPersonal(PersonaInputModel personaInputModel)
+        {
+            Persona persona = MapearPersona(personaInputModel);
+            var response = _personaService.Guardar(persona);
+            if(response.Error)
+            {
+                return BadRequest();
+            }
+            return Ok(response.Restaurante);
+        }
 
         [HttpGet("{identificacion}")]
         public ActionResult<PersonaViewModel> Get(string identificacion)
@@ -46,23 +51,7 @@ namespace segundaEntrega.Controllers
             }
             return Ok(response.Persona);
         }
-        // POST: api/Persona
-        [HttpPost]
-        public ActionResult<PersonaViewModel> Post(PersonaInputModel personaInput){
-            Persona persona = MapearPersona(personaInput);
-            var response = _personaService.Guardar(persona);
 
-            if (response.Error)
-            {
-                ModelState.AddModelError("Guardar Persona", response.Mensaje);
-                var problemDetails = new ValidationProblemDetails(ModelState)
-                {
-                    Status = StatusCodes.Status400BadRequest,
-                };
-            return BadRequest(problemDetails);
-            }
-            return Ok(response.Persona);
-        }
         
         private Persona MapearPersona(PersonaInputModel personaInput){
             var persona = new Persona();

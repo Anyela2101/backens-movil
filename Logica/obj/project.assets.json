@@ -6910,20 +6910,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\norma\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\DELL ANYELA\\Downloads\\MicroAlParque3erCorte-master\\MicroAlParque--master\\Logica\\Logica.csproj",
+      "projectUniqueName": "C:\\Users\\norma\\Documents\\GitHub\\backens-movil\\Logica\\Logica.csproj",
       "projectName": "Logica",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\DELL ANYELA\\Downloads\\MicroAlParque3erCorte-master\\MicroAlParque--master\\Logica\\Logica.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\DELL ANYELA\\Downloads\\MicroAlParque3erCorte-master\\MicroAlParque--master\\Logica\\obj\\",
+      "projectPath": "C:\\Users\\norma\\Documents\\GitHub\\backens-movil\\Logica\\Logica.csproj",
+      "packagesPath": "C:\\Users\\norma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\norma\\Documents\\GitHub\\backens-movil\\Logica\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\norma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -6936,11 +6941,11 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\DELL\\Desktop\\DELL ANYELA\\Downloads\\MicroAlParque3erCorte-master\\MicroAlParque--master\\Datos\\Datos.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\DELL ANYELA\\Downloads\\MicroAlParque3erCorte-master\\MicroAlParque--master\\Datos\\Datos.csproj"
+            "C:\\Users\\norma\\Documents\\GitHub\\backens-movil\\Datos\\Datos.csproj": {
+              "projectPath": "C:\\Users\\norma\\Documents\\GitHub\\backens-movil\\Datos\\Datos.csproj"
             },
-            "C:\\Users\\DELL\\Desktop\\DELL ANYELA\\Downloads\\MicroAlParque3erCorte-master\\MicroAlParque--master\\Entidad\\Entidad.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\DELL ANYELA\\Downloads\\MicroAlParque3erCorte-master\\MicroAlParque--master\\Entidad\\Entidad.csproj"
+            "C:\\Users\\norma\\Documents\\GitHub\\backens-movil\\Entidad\\Entidad.csproj": {
+              "projectPath": "C:\\Users\\norma\\Documents\\GitHub\\backens-movil\\Entidad\\Entidad.csproj"
             }
           }
         }
@@ -6969,7 +6974,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

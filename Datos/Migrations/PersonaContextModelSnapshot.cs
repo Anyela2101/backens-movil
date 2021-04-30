@@ -164,6 +164,9 @@ namespace Datos.Migrations
                     b.Property<string>("PaisProcedencia")
                         .HasColumnType("varchar(15)");
 
+                    b.Property<string>("RestauranteNIT")
+                        .HasColumnType("varchar(15)");
+
                     b.Property<string>("Sexo")
                         .HasColumnType("varchar(10)");
 
@@ -175,7 +178,7 @@ namespace Datos.Migrations
 
                     b.HasKey("Identificacion");
 
-                    b.HasIndex("Idrestaurante");
+                    b.HasIndex("RestauranteNIT");
 
                     b.HasIndex("UsuarioUser");
 
@@ -302,8 +305,8 @@ namespace Datos.Migrations
             modelBuilder.Entity("Entidad.Persona", b =>
                 {
                     b.HasOne("Entidad.Restaurante", null)
-                        .WithMany()
-                        .HasForeignKey("Idrestaurante");
+                        .WithMany("Personals")
+                        .HasForeignKey("RestauranteNIT");
 
                     b.HasOne("Entidad.Usuario", "Usuario")
                         .WithMany()

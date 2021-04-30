@@ -68,3 +68,17 @@ C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAl
 C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
 C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.dll
 C:\Users\DELL\Desktop\DELL ANYELA\Downloads\MicroAlParque3erCorte-master\MicroAlParque--master\Logica\obj\Debug\netstandard2.1\Logica.pdb
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\norma\Documents\GitHub\backens-movil\Logica\obj\Debug\netstandard2.1\Logica.pdb

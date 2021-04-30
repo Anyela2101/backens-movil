@@ -16,21 +16,29 @@ namespace Logica
             _context=context;
         }
 
-         public GuardarPersonaResponse Guardar(Persona persona)
+         public AgregarPersonaRestauranteResponse Guardar(Persona persona)
         {
             try
             {
                 var personaBuscada = _context.Personas.Find(persona.Identificacion);
-                if(personaBuscada != null){
-                    return new GuardarPersonaResponse("Error, la persona ya se encuentra registrada");
+                if(personaBuscada != null)
+                {
+                    return new AgregarPersonaRestauranteResponse("Error, la persona ya se encuentra registrada", "Existe");
                 }
-                _context.Personas.Add(persona);
+
+                var response = _context.Restaurantes.Find(persona.Idrestaurante);
+                if(response == null)
+                {
+                    return new AgregarPersonaRestauranteResponse("Error, no existe el restaurante", "NoExiste");
+                }
+                response.Personals.Add(persona);
+                _context.Restaurantes.Update(response);
                 _context.SaveChanges();
-                return new GuardarPersonaResponse(persona);
+                return new AgregarPersonaRestauranteResponse(response);
             }
             catch (Exception e)
             {
-                return new GuardarPersonaResponse($"Error de la Aplicacion  : {e.Message}");
+                return new AgregarPersonaRestauranteResponse($"Error de la Aplicacion  : {e.Message}", "Error");
             }
             finally { }
         }
@@ -55,6 +63,24 @@ namespace Logica
             return personas;
         }
 
+    public class AgregarPersonaRestauranteResponse
+    {
+        public AgregarPersonaRestauranteResponse(Restaurante restaurante)
+        {
+            Error = false;
+            Restaurante = restaurante;
+        }
+        public AgregarPersonaRestauranteResponse(string mensaje, string estado)
+        {
+            Error = true;
+            Mensaje = mensaje;
+            Estado = estado;
+        }
+        public bool Error { get; set; }
+        public string Mensaje { get; set; }
+        public string Estado { get; set; }
+        public Restaurante Restaurante { get; set; }
+    }
     public class GuardarPersonaResponse 
     {
         public GuardarPersonaResponse(Persona persona)

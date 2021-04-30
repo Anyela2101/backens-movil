@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Entidad;
 
 namespace segundaEntrega.Models
@@ -26,6 +27,7 @@ namespace segundaEntrega.Models
         public int Sedes {get;set;}
         public int AFuncionamiento {get;set;}
         public string Especialidad {get;set;}
+        public List<Persona> Personals { get; set; }
     }
     public class RestauranteViewModel : RestauranteInputModel
     {

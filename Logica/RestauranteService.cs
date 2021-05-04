@@ -113,10 +113,15 @@ namespace Logica
         {
             try
             {
-                var response = _context.Restaurantes.Find(nit);
+                var restaurantes = _context.Restaurantes.Include(r => r.Personals).ToList();
+                var response = restaurantes.Find(r=> r.NIT == nit);
                 if(response != null)
                 {
                     _context.Restaurantes.Remove(response);
+                    foreach (var item in response.Personals)
+                    {
+                        _context.Personas.Remove(item);
+                    }
                     _context.SaveChanges();
                     return new EliminarRestauranteResponse(response);
                 }

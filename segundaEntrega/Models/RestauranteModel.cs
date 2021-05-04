@@ -31,6 +31,7 @@ namespace segundaEntrega.Models
     }
     public class RestauranteViewModel : RestauranteInputModel
     {
+        public List<Persona> Personals { get; set; }
         public RestauranteViewModel()
         {
 
@@ -46,7 +47,8 @@ namespace segundaEntrega.Models
             Email = restaurante.Email;
             Sedes = restaurante.Sedes;
             AñoFuncionamiento=restaurante.AñoFuncionamiento;
-            Especialidad =restaurante.Especialidad;  
+            Especialidad =restaurante.Especialidad;
+            Personals = restaurante.Personals;
         }
     }
     public class RestauranteViewModeltwo : RestauranteInputModeltwo

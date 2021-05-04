@@ -1,8 +1,8 @@
 using System;
-using Datos;
-using Entidad;
 using System.Collections.Generic;
 using System.Linq;
+using Datos;
+using Entidad;
 using Microsoft.EntityFrameworkCore;
 
 namespace Logica
@@ -10,6 +10,7 @@ namespace Logica
     public class RestauranteService
     {
         private readonly PersonaContext _context;
+
         public RestauranteService(PersonaContext context)
         {
             _context = context;
@@ -19,12 +20,13 @@ namespace Logica
         {
             try
             {
-                var restauranteBuscada = _context.Restaurantes.Find(restaurante.NIT);
+                var restauranteBuscada =
+                    _context.Restaurantes.Find(restaurante.NIT);
                 if (restauranteBuscada != null)
                 {
                     return new GuardarRestauranteResponse("Error, ya registrarada");
                 }
-                _context.Restaurantes.Add(restaurante);
+                _context.Restaurantes.Add (restaurante);
                 _context.SaveChanges();
                 return new GuardarRestauranteResponse(restaurante);
             }
@@ -32,13 +34,17 @@ namespace Logica
             {
                 return new GuardarRestauranteResponse($"Error de la Aplicacion: {e.Message}");
             }
-            finally { }
+            finally
+            {
+            }
         }
+
         public List<Restaurante> ConsultarTodos()
         {
-            List<Restaurante> restaurantes = _context.Restaurantes.ToList();
+            List<Restaurante> restaurantes = _context.Restaurantes.Include(r => r.Personals).ToList();
             return restaurantes;
         }
+
         public List<Restaurantetwo> ConsultarTodostwo()
         {
             List<Restaurante> restaurantes = _context.Restaurantes.ToList();
@@ -56,10 +62,10 @@ namespace Logica
                 restaurantetwo.Direccion = item.Direccion;
                 restaurantetwo.Email = item.Email;
                 restaurantetwo.Especialidad = item.Especialidad;
-
             }
             return restaurantestwo;
         }
+
         public GuardarRestauranteResponse Buscar(string nombre)
         {
             Restaurante restaurante = _context.Restaurantes.Find(nombre);
@@ -75,7 +81,7 @@ namespace Logica
             try
             {
                 var response = _context.Restaurantes.Find(restaurante.NIT);
-                if(response!= null)
+                if (response != null)
                 {
                     response.Nombre = restaurante.Nombre;
                     response.Propietario = restaurante.Propietario;
@@ -86,19 +92,63 @@ namespace Logica
                     response.Sedes = restaurante.Sedes;
                     response.AñoFuncionamiento = restaurante.AñoFuncionamiento;
                     response.Especialidad = restaurante.Especialidad;
-                    _context.Restaurantes.Update(response);
+                    _context.Restaurantes.Update (response);
                     _context.SaveChanges();
                     return new EditarRestauranteResponse(response);
                 }
                 else
                 {
-                    return new EditarRestauranteResponse("No se encontro el Restaurante", "NoExiste");
+                    return new EditarRestauranteResponse("No se encontro el Restaurante",
+                        "NoExiste");
+                }
+            }
+            catch (Exception e)
+            {
+                return new EditarRestauranteResponse($"Error en la aplicacion: {e.Message}",
+                    "Error");
+            }
+        }
+
+        public EliminarRestauranteResponse EliminarRestaurante(string nit)
+        {
+            try
+            {
+                var response = _context.Restaurantes.Find(nit);
+                if(response != null)
+                {
+                    _context.Restaurantes.Remove(response);
+                    _context.SaveChanges();
+                    return new EliminarRestauranteResponse(response);
+                }
+                else
+                {
+                    return new EliminarRestauranteResponse("No se encuentra el restaurante","NoExiste");
                 }
             }
             catch(Exception e)
             {
-                return new EditarRestauranteResponse($"Error en la aplicacion: {e.Message}", "Error");
+                return new EliminarRestauranteResponse($"Error en la aplicacion: {e.Message}",
+                    "Error");
             }
+        }
+
+        public class EliminarRestauranteResponse
+        {
+            public EliminarRestauranteResponse(Restaurante restaurante)
+            {
+                Error = false;
+                Restaurante = restaurante;
+            }
+            public EliminarRestauranteResponse(string mensaje, string estado)
+            {
+                Error = true;
+                Mensaje = mensaje;
+                Estado = estado;
+            }
+            public bool Error { get; set; }
+            public string Estado { get; set; }
+            public string Mensaje { get; set; }
+            public Restaurante Restaurante { get; set; }
         }
 
         public class EditarRestauranteResponse
@@ -108,16 +158,20 @@ namespace Logica
                 Error = false;
                 Restaurante = restaurante;
             }
+
             public EditarRestauranteResponse(string mensaje, string estado)
             {
                 Error = true;
                 Mensaje = mensaje;
                 Estado = estado;
-
             }
+
             public bool Error { get; set; }
+
             public string Mensaje { get; set; }
+
             public string Estado { get; set; }
+
             public Restaurante Restaurante { get; set; }
         }
 
@@ -128,15 +182,18 @@ namespace Logica
                 Error = false;
                 Restaurante = restaurante;
             }
+
             public GuardarRestauranteResponse(string mensaje)
             {
                 Error = true;
                 Mensaje = mensaje;
             }
-            public bool Error { get; set; }
-            public string Mensaje { get; set; }
-            public Restaurante Restaurante { get; set; }
 
+            public bool Error { get; set; }
+
+            public string Mensaje { get; set; }
+
+            public Restaurante Restaurante { get; set; }
         }
     }
 }
